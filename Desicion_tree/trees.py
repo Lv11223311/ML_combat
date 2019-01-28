@@ -73,7 +73,6 @@ def chooseBestFeatureToSplit(dataSet):
     return bestFeature
 
 
-
 def majorityCnt(classList):
     classCount = {} # initial class count
     for vote in classList:
@@ -101,3 +100,4 @@ def createTree(dataSet, labels):
         myTree[bestFeatLabel][value] = createTree(splitDataSet(dataSet,\
                                                   bestFeat, value), subLabels)
     return myTree
+
