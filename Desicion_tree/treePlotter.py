@@ -53,7 +53,7 @@ def getTreeDepth(myTree):
 
 def retrieveTree(i):
     # 创建两个树的实例数据
-    listOfTrees = [{'no surfacing': {0:'no', 1:{'flippers':{0:'no', 1:'yes'}}}},\
+    listOfTrees = [{'no surfacing': {0:'no', 1:{'flippers':{0:'no', 1:'yes'}}}},
                    {'no surfacing':{0:'no', 1:{'flippers':{0:{'head':{0:'no', 1:'yes'}}, 1:'no'}}}}
                    ]
     return listOfTrees[i]
